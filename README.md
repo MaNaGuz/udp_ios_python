@@ -1,19 +1,16 @@
-# start.gg Player Dashboard
+# Python - iOS UDP simple sample
 
 ## Target:
 
-To create an application that shows users the some
-of their stats in start.gg
+To create a simple application that communicates iOS and Python
+using UDP protocol
 
 ## Usage:
-
-### Prerequisites
-get your user token using this guide https://developer.start.gg/docs/authentication
 
 ### Build and Run:
 
 ```
-bash scripts/build_and_start.sh <port> <token>
+bash scripts/build_and_start.sh <port>
 ```
 
 ### Build:
@@ -25,7 +22,7 @@ bash scripts/build.sh
 ### Run:
 
 ```
-bash scripts/docker_start.sh <port> <token>
+bash scripts/docker_start.sh <port>
 ```
 
 ### Build and Run:
