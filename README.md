@@ -30,3 +30,8 @@ bash scripts/docker_start.sh <port>
 ```
 bash scripts/build_and_start.sh
 ```
+
+## Notes
+
+If you are using Colima for MacOs, remember to change tcp to grpc
+when starting Colima
